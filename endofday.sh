@@ -10,3 +10,9 @@ fullday=$(date +%Y-%m-%d)
 #git add FrankMeetings.md
 git add "$year"/"$month"/*
 git commit -m "End of Day $fullday"
+
+#killall firefox
+#killall firefox-bin
+killall lens
+killall codium
+killall zoom
